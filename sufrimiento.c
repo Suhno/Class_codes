@@ -2,10 +2,10 @@
 int main() {
     int num1, num2, num3, num4, num5;
 
-    printf("Cinco numeros separados por espacios: ");     // Solicitar cinco números
+    printf("Cinco numeros separados por espacios: ");     // Solicitar cinco nÃºmeros
     scanf("%d %d %d %d %d", &num1, &num2, &num3, &num4, &num5);
 
-    if (num1 >= num2 && num1 >= num3 && num1 >= num4 && num1 >= num5) { // Cual de los números es el maximo usando if y else if
+    if (num1 >= num2 && num1 >= num3 && num1 >= num4 && num1 >= num5) { // Cual de los nÃºmeros es el maximo usando if y else if
         printf("El maximo es: %d\n", num1);   // Si num1 es el max, dice el valor de num1
     } else if (num2 >= num1 && num2 >= num3 && num2 >= num4 && num2 >= num5) {
         printf("El maximo es: %d\n", num2); // Si num2 es el max, dice el valor de num2
