@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main() {
-char selc;
-   printf("Quieres haccer una suma y/n")
-   scanf("%s", &selc)
-     if (selc == y) {
+char se;
+   printf("Do you want to add?")
+   scanf("%s", &se)
+     if (se == y) {
     int num1, num2;
     float ans;
-    printf("Ingrese el primer numero: ");
+    printf("First number: ");
     scanf("%s", &num1);
-    printf("Ingrese el segundo numero: ");
+    printf("Second number: ");
     scanf("%s", &num2);
     ans= num1 + num2
-    printf("el resultado es %f", &ans);
+    printf("The result is: %f", &ans);
    } else {
      printf("Error.\n");
    }
